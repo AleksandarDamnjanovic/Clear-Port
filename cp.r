@@ -7,8 +7,6 @@ if(length(args)==0){
 	stop()
 }
 
-args<-c(44444)
-
 c1<-paste("sudo netstat -tanopl|grep", args[1])
 print(c1)
 
